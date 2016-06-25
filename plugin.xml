@@ -4,7 +4,7 @@
         id="cl.rmd.cordova.dialoggps"
         version="0.0.3">
     <engines>
-        <engine name="cordova" version=">=5.0.0"/>
+        <engine name="cordova" version=">=4.0.0"/>
     </engines>
     <name>DialogGPS</name>
     <description>Plugin for cordova to display a dialog to redirect to gps settings when gps are disabled.</description>

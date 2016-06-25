@@ -38,9 +38,10 @@ public class DialogGPS extends CordovaPlugin {
                 if(! gpsEnable) {
                     this.createDialog(args.getString(0),args.getString(1),args.getString(2),args.getJSONArray(3),callbackContext);
                     return true;
+                } else {
+                    callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, 'active'));
                 }
             }else if (action.equals("IS_GPS_ACTIVE")) {
-
             }
         return false;
     }

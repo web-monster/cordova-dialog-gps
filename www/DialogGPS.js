@@ -15,7 +15,7 @@ var DialogGPS = function(message,description,callback,title,buttons){
 };
 		
 DialogGPS.gpsActive = function(successCallback,failCallback){
-}
+};
 		
 
 

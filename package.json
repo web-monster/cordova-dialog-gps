@@ -1,0 +1,21 @@
+{
+  "name": "cl.rmd.cordova.dialoggps",
+  "version": "0.0.3",
+  "description": "Plugin for cordova to display a dialog to redirect to gps settings when gps are disabled.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/web-monster/cordova-dialog-gps.git"
+  },
+  "keywords": [
+    "cordova",
+    "dialog",
+    "gps",
+    "dialogGPS"
+  ],
+  "author": "relaxdi",
+  "license": "MIT",
+  "homepage": "https://github.com/web-monster/cordova-dialog-gps.git#readme"
+}
